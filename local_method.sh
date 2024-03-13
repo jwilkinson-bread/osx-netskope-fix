@@ -11,8 +11,8 @@ cat >> ~/.zshrc <<- EOM
 
 # --- AUTOMATICALLY GENERATED FROM: netskope.sh -------
 
-export REQUESTS_CA_BUNDLE='~/.netskope/netskope-ca.pem'
-export GIT_SSL_CAPATH='~/.netskope/'
+export REQUESTS_CA_BUNDLE='$HOME/.netskope/netskope-ca.pem'
+export GIT_SSL_CAPATH='$HOME/.netskope/'
 
 # ------------------------------------------------------------------
 
