@@ -16,6 +16,8 @@
     cd openssl_method
     ./netskope.sh
     ```
+    
+    IF THIS DOESN'T WORK - TRY:
 
     **Local Netskope Instance Method:**
 
