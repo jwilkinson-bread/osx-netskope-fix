@@ -8,9 +8,10 @@
 
 2. Patch Python and Git with one of the following methods:
 
-    **OpenSSL Method:**
 
-    Should work as long as OpenSSL is installed (requires Apple Dev Tools)
+    **Local Netskope Instance Method:**
+
+    Assumes you have netskope certificates available installed in your system keychain.
 
     ```shell
     ./local_method.sh
@@ -18,13 +19,14 @@
     
     IF THIS DOESN'T WORK - TRY:
 
-    **Local Netskope Instance Method:**
+    **OpenSSL Method:**
 
-    Assumes you have netskope certificates available installed in your system keychain.
+    Should work as long as OpenSSL is installed (requires Apple Dev Tools)
 
     ```shell
     ./openssl_method.sh
     ```
+    
 3. Restart zsh `exec zsh`
 
 4. Test `dbt deps` and `git clone` (and/or `git push`)
