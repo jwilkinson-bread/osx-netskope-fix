@@ -25,7 +25,8 @@
     cd local_method
     ./netskope.sh
     ```
+3. Restart zsh `exec zsh`
 
-3. Test `dbt deps` and `git clone` (and/or `git push`)
+4. Test `dbt deps` and `git clone` (and/or `git push`)
 
-4. Setup `awscli` with LEAPP: https://github.com/getbread/de_tools?tab=readme-ov-file#setting-up-aws-cli
+5. Setup `awscli` with LEAPP: https://github.com/getbread/de_tools?tab=readme-ov-file#setting-up-aws-cli
