@@ -13,8 +13,7 @@
     Should work as long as OpenSSL is installed (requires Apple Dev Tools)
 
     ```shell
-    cd openssl_method
-    ./netskope.sh
+    ./local_method.sh
     ```
     
     IF THIS DOESN'T WORK - TRY:
@@ -24,8 +23,7 @@
     Assumes you have netskope certificates available installed in your system keychain.
 
     ```shell
-    cd local_method
-    ./netskope.sh
+    ./openssl_method.sh
     ```
 3. Restart zsh `exec zsh`
 

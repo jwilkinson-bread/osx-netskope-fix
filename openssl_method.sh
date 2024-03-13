@@ -6,8 +6,7 @@ echo | openssl s_client -showcerts -servername github.com \
     | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > netskope-ca.pem
 
 # Copy to user directory
-mkdir -p ~/.netskope
-cp netskope-ca.pem ~/.netskope/netskope-ca.pem
+cat netskope-ca.pem > ~/.netskope/netskope-ca.pem
 
 # Add certificate to zsh
 cat >> ~/.zshrc <<- EOM      

@@ -4,8 +4,7 @@
 security find-certificate -a -p /System/Library/Keychains/SystemRootCertificates.keychain /Library/Keychains/System.keychain > netskope-ca.pem
 
 # Copy to user directory
-mkdir -p ~/.netskope
-cp netskope-ca.pem ~/.netskope/netskope-ca.pem
+cat netskope-ca.pem > ~/.netskope/netskope-ca.pem
 
 # Add certificate to zsh
 cat >> ~/.zshrc <<- EOM      
