@@ -1,6 +1,6 @@
 # osx-netskope-fix
 
-This fixes netskope compatability for python https requests and git.
+This fixes OSX netskope compatability for python https requests and git.
 
 
 1. Clone the repo:
