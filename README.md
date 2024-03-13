@@ -6,7 +6,7 @@
 git clone https://github.com/jwilkinson-bread/osx-netskope-fix.git
 ```
 
-2. Pick a method and try it:
+2. Patch Python and Git with one of the following methods:
 
 ### OpenSSL Method:
 
@@ -26,5 +26,6 @@ cd local_method
 ./netskope.sh
 ```
 
-3. See if `dbt deps` works!
+3. Test `dbt deps` and `git clone` (and/or `git push`)
 
+4. Setup `awscli` with LEAPP: https://github.com/getbread/de_tools?tab=readme-ov-file#setting-up-aws-cli
